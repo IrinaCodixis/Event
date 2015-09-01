@@ -16,4 +16,5 @@ Test\EventBundle\Entity\Guestss:
             length: 255
         isAttending:
             type: boolean
+            nullable:true
     lifecycleCallbacks: {  }

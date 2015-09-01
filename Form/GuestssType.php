@@ -17,7 +17,7 @@ class GuestssType extends AbstractType
         $builder
             ->add('name')
             ->add('email')
-            ->add('isAttending')
+            ->add('isAttending, null, array('label' => 'Attend?')')
         ;
     }
     
