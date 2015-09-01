@@ -12,6 +12,6 @@ Test\EventBundle\Entity\Guests:
    email:
     type: string
     length: 225
-   attend:
+   isAttending:
     type: boolean
     nullable: true
