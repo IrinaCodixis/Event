@@ -1,0 +1,17 @@
+Test\EventBundle\Entity\Guests:
+  type: entity
+  table: guests
+  id:
+    id:
+      type: integer 
+      generatr: { strategy: AUTO }
+  fields:
+   name:
+    type: string
+    length: 225
+   email:
+    type: string
+    length: 225
+   attend:
+    type: boolean
+    nullable: true
