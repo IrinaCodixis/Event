@@ -20,6 +20,11 @@ class LoadEventData extends AbstractFixture implements OrderedFixtureInterface
      
     $em->flush();
   }
+  
+  public function getOrder()
+  {
+    return 1; // the order in which fixtures will be loaded
+  }
  
 }
 
