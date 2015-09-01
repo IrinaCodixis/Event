@@ -2,7 +2,7 @@ test_event_homepage:
     path:     /hello/{name}
     defaults: { _controller: TestEventBundle:Default:index }
 
- TestEventBundle_test_event:
+TestEventBundle_test_event:
     resource: "@TestEventBundle/Resources/config/routing/guestss.yml"
     prefix:   /event
 
