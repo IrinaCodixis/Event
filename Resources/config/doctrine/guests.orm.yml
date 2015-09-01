@@ -4,7 +4,7 @@ Test\EventBundle\Entity\Guests:
   id:
     id:
       type: integer 
-      generatr: { strategy: AUTO }
+      generator: { strategy: AUTO }
   fields:
    name:
     type: string
