@@ -1,0 +1,19 @@
+Test\EventBundle\Entity\Guestss:
+    type: entity
+    table: null
+    repositoryClass: Test\EventBundle\Entity\GuestssRepository
+    fields:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+        name:
+            type: string
+            length: 255
+        email:
+            type: string
+            length: 255
+        isAttending:
+            type: boolean
+    lifecycleCallbacks: {  }
