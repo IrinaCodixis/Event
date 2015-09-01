@@ -1,0 +1,30 @@
+test_event:
+    path:     /
+    defaults: { _controller: "TestEventBundle:Guestss:index" }
+
+test_event_show:
+    path:     /{id}/show
+    defaults: { _controller: "TestEventBundle:Guestss:show" }
+
+test_event_new:
+    path:     /new
+    defaults: { _controller: "TestEventBundle:Guestss:new" }
+
+test_event_create:
+    path:     /create
+    defaults: { _controller: "TestEventBundle:Guestss:create" }
+    requirements: { _method: post }
+
+test_event_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "TestEventBundle:Guestss:edit" }
+
+test_event_update:
+    path:     /{id}/update
+    defaults: { _controller: "TestEventBundle:Guestss:update" }
+    requirements: { _method: post|put }
+
+test_event_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "TestEventBundle:Guestss:delete" }
+    requirements: { _method: post|delete }
