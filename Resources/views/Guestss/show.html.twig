@@ -1,7 +1,8 @@
-{% extends '::base.html.twig' %}
+{% extends 'TestEventBundle::layout.html.twig' %}
 
-{% block body -%}
-    <h1>Guestss</h1>
+
+{% block content %}
+    <h1>Guest</h1>
 
     <table class="record_properties">
         <tbody>
@@ -18,7 +19,7 @@
                 <td>{{ entity.email }}</td>
             </tr>
             <tr>
-                <th>Isattending</th>
+                <th>Attending?</th>
                 <td>
 				{% if entity.isAttending == 1 %}
 					<p>Yes</p>
