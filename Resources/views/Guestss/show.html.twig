@@ -19,7 +19,13 @@
             </tr>
             <tr>
                 <th>Isattending</th>
-                <td>{{ entity.isAttending }}</td>
+                <td>
+				{% if entity.isAttending == 1 %}
+					<p>Yes</p>
+				{% else %}
+					<p>No</p>
+				{% endif %} 
+				</td>
             </tr>
         </tbody>
     </table>
